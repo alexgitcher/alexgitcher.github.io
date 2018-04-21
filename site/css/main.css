@@ -577,6 +577,8 @@ main {
   cursor: pointer;
   -webkit-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 .btn-buy::after {
@@ -686,6 +688,8 @@ main {
 
 .product__item--active {
   cursor: pointer;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 .product__item-before,
